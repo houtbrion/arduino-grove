@@ -142,7 +142,7 @@ exapmleを使って動作を
 9600に落とした．
 
 ### 3軸デジタル加速度センサ
-* [製品情報](http://www.seeedstudio.com/depot/Grove-3Axis-Digital-Accelerometer400g-p-1897.html?cPath=25_132 "製品情報")
+* [製品情報](http://www.seeedstudio.com/depot/Grove-3Axis-Digital-Accelerometer400g-p-1897.html?cPath=25\_132 "製品情報")
 * [サンプルプログラム](http://www.seeedstudio.com/wiki/Grove\_-\_3-Axis\_Digital\_Accelerometer "サンプルプログラム")
 * [ライブラリ](https://github.com/Seeed-Studio/Accelerometer\_H3LIS331DL "ライブラリ")
 
