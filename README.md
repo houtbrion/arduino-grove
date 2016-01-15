@@ -39,8 +39,8 @@ Seeed Studioがgithubで公開しているライブラリに含まれるサン�
 LCDはシールドのI2Cに接続することで利用可能．
 
 ### Grove - Smart Relay
-* [製品情報](http://www.seeedstudio.com/depot/grove-relay-p-769.html?cPath=156\_160 "製品情報")
-* [技術情報](http://www.seeedstudio.com/wiki/Grove\_-\_Relay "技術情報")
+* [製品情報](http://www.seeedstudio.com/depot/grove-relay-p-769.html?cPath=156_160 "製品情報")
+* [技術情報](http://www.seeedstudio.com/wiki/Grove_-_Relay "技術情報")
 
 元々のWikiのサンプルプログラムは，デジタル1,2番に2つボタンをつけて,6番にリレーをつける．
 2つのボタンを交互に押すとリレーがON/OFFされる．しかし，シールドにはデジタルの1番はないことと
