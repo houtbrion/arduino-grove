@@ -54,7 +54,7 @@ ONになるように変更．
 テストプログラムは，一定時間間隔でブザーがなるだけのプログラム．
 結構うるさい :-P
 
-* [サンプルプログラム] (https://github.com/houtbrion/arduino-grove/blob/master/buzzer/buzzer.ino "buzzer.ino")
+* [buzzer.ino] (https://github.com/houtbrion/arduino-grove/blob/master/buzzer/buzzer.ino "サンプルプログラム")
 
 ### Grove - Sound Sensor
 * [製品情報](http://www.seeedstudio.com/depot/grove-sound-sensor-p-752.html?cPath=144_148 "製品情報")
