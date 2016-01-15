@@ -30,10 +30,10 @@
 * 1 x Grove starter kit Manual
 * 1 x Green Plastic Box
 
-### Grove \- LCD RGB Backlight
+### Grove - LCD RGB Backlight
 * [製品情報](http://www.seeedstudio.com/depot/Grove-LCD-RGB-Backlight-p-1643.html?cPath=34_36 "製品情報")
-* [技術情報](http://www.seeedstudio.com/wiki/Grove\_-\_LCD\_RGB\_Backlight "技術情報")
-* [ライブラリ](https://github.com/Seeed-Studio/Grove\_LCD\_RGB\_Backlight "ライブラリ")
+* [技術情報](http://www.seeedstudio.com/wiki/Grove_-_LCD_RGB_Backlight "技術情報")
+* [ライブラリ](https://github.com/Seeed-Studio/Grove_LCD_RGB_Backlight "ライブラリ")
 
 Seeed Studioがgithubで公開しているライブラリに含まれるサンプルプログラム「Blink」で動作確認．
 LCDはシールドのI2Cに接続することで利用可能．
@@ -48,22 +48,22 @@ LCDはシールドのI2Cに接続することで利用可能．
 ONになるように変更．
 
 ### Grove - Buzzer
-* [製品情報](http://www.seeedstudio.com/depot/grove-buzzer-p-768.html?cPath=156\_159 "製品情報")
-* [技術情報](http://www.seeedstudio.com/wiki/Grove\_-\_Buzzer "技術情報")
+* [製品情報](http://www.seeedstudio.com/depot/grove-buzzer-p-768.html?cPath=156_159 "製品情報")
+* [技術情報](http://www.seeedstudio.com/wiki/Grove_-_Buzzer "技術情報")
 
 テストプログラムは，一定時間間隔でブザーがなるだけのプログラム．
 結構うるさい :-P
 
 ### Grove - Sound Sensor
-* [製品情報](http://www.seeedstudio.com/depot/grove-sound-sensor-p-752.html?cPath=144\_148 "製品情報")
-* [技術情報](http://www.seeedstudio.com/wiki/index.php?title=Twig\_-\_Sound\_Sensor "技術情報")
+* [製品情報](http://www.seeedstudio.com/depot/grove-sound-sensor-p-752.html?cPath=144_148 "製品情報")
+* [技術情報](http://www.seeedstudio.com/wiki/index.php?title=Twig_-_Sound_Sensor "技術情報")
 
 Wikiのサンプルプログラムはデジタル3番ピンにLED, アナログ0番に音センサを繋いで使う．
 センサモジュール上のマイクに向かって喋るとLEDが光る．
 
 ### Grove - Touch Sensor
-* [製品情報](http://www.seeedstudio.com/depot/grove-touch-sensor-p-747.html?cPath=156\_160 "製品情報")
-* [技術情報](http://www.seeedstudio.com/wiki/index.php?title=Twig\_-\_Touch\_Sensor "技術情報")
+* [製品情報](http://www.seeedstudio.com/depot/grove-touch-sensor-p-747.html?cPath=156_160 "製品情報")
+* [技術情報](http://www.seeedstudio.com/wiki/index.php?title=Twig_-_Touch_Sensor "技術情報")
 
 プログラムはタッチセンサに触れるとLEDが光る仕組み．
 
@@ -72,16 +72,16 @@ LEDをデジタルの12番，タッチセンサをデジタルの9番に接続�
 デジタルは2から8までしかないので，LEDをD3,センサをD8に接続するように変更．
 
 ### Grove - Rotary Angle Sensor
-* [製品情報](http://www.seeedstudio.com/depot/grove-rotary-angle-sensor-p-p-1242.html?cPath=156\_160 "製品情報")
-* [技術情報](http://www.seeedstudio.com/wiki/Grove\_-\_Rotary\_Angle\_Sensor "技術情報")
+* [製品情報](http://www.seeedstudio.com/depot/grove-rotary-angle-sensor-p-p-1242.html?cPath=156_160 "製品情報")
+* [技術情報](http://www.seeedstudio.com/wiki/Grove_-_Rotary_Angle_Sensor "技術情報")
 
 Wikiのサンプルプログラムは，コメント欄にデジタル3番端子にLEDを接続して，アナログ0番にロータリーセンサをつける
 ことになっているが，実際のプログラムはデジタル2番端子にLEDをつけるようになっている．
 とりあえず，コメントに合わせてLEDの接続先は変更．
 
 ### Grove - Temperature Sensor
-* [製品情報](http://www.seeedstudio.com/depot/grove-temperature-sensor-p-774.html?cPath=144\_147 "製品情報")
-* [技術情報](http://www.seeedstudio.com/wiki/Grove\_-\_Temperature\_Sensor\_V1.2 "技術情報")
+* [製品情報](http://www.seeedstudio.com/depot/grove-temperature-sensor-p-774.html?cPath=144_147 "製品情報")
+* [技術情報](http://www.seeedstudio.com/wiki/Grove_-_Temperature_Sensor_V1.2 "技術情報")
 
 Wikiのサンプルプログラムは，アナログの5番端子に接続して使うことになっているが，groveのシールドは0番から3番までしか
 端子がないため，アナログ0番に接続端子を変更．
@@ -91,8 +91,8 @@ Wikiのサンプルプログラムは，アナログの5番端子に接続して
 * [Suliライブラリ](https://github.com/Seeed-Studio/Temperature_Suli "Suliライブラリ")
 
 ### Grove - LED
-* [製品情報](http://www.seeedstudio.com/depot/Grove-LED-p-767.html?cPath=81\_35 "製品情報")
-* [技術情報](http://www.seeedstudio.com/wiki/index.php?title=GROVE\_-\_Starter\_Kit\_v1.1b#Grove\_-\_LED "技術情報")
+* [製品情報](http://www.seeedstudio.com/depot/Grove-LED-p-767.html?cPath=81_35 "製品情報")
+* [技術情報](http://www.seeedstudio.com/wiki/index.php?title=GROVE_-_Starter_Kit_v1.1b#Grove_-_LED "技術情報")
 
 Wikiのサンプルプログラムは，ボタンとLEDの2つのモジュールをシールドに刺して利用する．
 ボタンを押している間だけLEDが点灯するプログラム．
@@ -100,15 +100,15 @@ Wikiのサンプルプログラムは，ボタンとLEDの2つのモジュール
 モジュールを2つ使うのが面倒だったので，1秒間隔でLEDが点滅するプログラムに変更．
 
 ### Grove - Light Sensor
-* [製品情報](http://www.seeedstudio.com/depot/Grove-Light-Sensor-p-746.html?cPath=25\_27 "製品情報")
-* [技術情報](http://www.seeedstudio.com/wiki/Grove\_-\_Light\_Sensor "技術情報")
+* [製品情報](http://www.seeedstudio.com/depot/Grove-Light-Sensor-p-746.html?cPath=25_27 "製品情報")
+* [技術情報](http://www.seeedstudio.com/wiki/Grove_-_Light_Sensor "技術情報")
 
 Wikiのサンプルプログラムはデジタル12ピンにLEDをつけるようになっているが，LEDはなしで
 動くようデジタル13番ピン(基板上のもの)に変更．
 
 ### Grove - Button
-* [製品情報](http://www.seeedstudio.com/depot/grove-button-p-766.html?cPath=156\_160 "製品情報")
-* [技術情報](http://www.seeedstudio.com/wiki/Grove\_-\_Button "技術情報")
+* [製品情報](http://www.seeedstudio.com/depot/grove-button-p-766.html?cPath=156_160 "製品情報")
+* [技術情報](http://www.seeedstudio.com/wiki/Grove_-_Button "技術情報")
 
 Wikiのサンプルプログラムの説明では，「デジタル13番ピンにLEDを挿して動作確認せよ」と書いてあるが，
 デジタル13番ピンには基板上にLEDが付いているため，シールドの下に隠れていることを除けば
@@ -144,9 +144,9 @@ exapmleを使って動作を
 9600に落とした．
 
 ### 3軸デジタル加速度センサ
-* [製品情報](http://www.seeedstudio.com/depot/Grove-3Axis-Digital-Accelerometer400g-p-1897.html?cPath=25\_132 "製品情報")
-* [技術情報](http://www.seeedstudio.com/wiki/Grove\_-\_3-Axis\_Digital\_Accelerometer "技術情報")
-* [ライブラリ](https://github.com/Seeed-Studio/Accelerometer\_H3LIS331DL "ライブラリ")
+* [製品情報](http://www.seeedstudio.com/depot/Grove-3Axis-Digital-Accelerometer400g-p-1897.html?cPath=25_132 "製品情報")
+* [技術情報](http://www.seeedstudio.com/wiki/Grove_-_3-Axis_Digital_Accelerometer "技術情報")
+* [ライブラリ](https://github.com/Seeed-Studio/Accelerometer_H3LIS331DL "ライブラリ")
 
 なぜだか，ライブラリ提供のセンサの初期化機能が失敗するため動作確認できない
 (というか，新品なのに壊れている?)．
@@ -212,8 +212,8 @@ githubにライブラリではなく，サンプルプログラムだけが公�
 
 ### I2Cタッチセンサ
 * [製品情報](http://www.seeedstudio.com/depot/Grove-I2C-Touch-Sensor-p-840.html "製品情報")
-* [技術情報](http://www.seeedstudio.com/wiki/Grove\_-\_I2C\_Touch\_Sensor "技術情報")
-* [ライブラリ](https://github.com/Seeed-Studio/Grove\_I2C\_Touch\_Sensor "ライブラリ")
+* [技術情報](http://www.seeedstudio.com/wiki/Grove_-_I2C_Touch_Sensor "技術情報")
+* [ライブラリ](https://github.com/Seeed-Studio/Grove_I2C_Touch_Sensor "ライブラリ")
 
 ライブラリ提供のサンプルプログラムはどれかのセンサに触れないとなにも出力されないため，
 自分で使う際は注意(かならず触る)．
