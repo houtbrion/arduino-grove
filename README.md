@@ -143,7 +143,7 @@ exapmleを使って動作を
 なお，テストに用いたプログラムはSerialの通信速度を
 9600に落とした．
 
-### 3軸デジタル加速度センサ
+### 3軸デジタル加速度センサ(H3LI331DL)
 * [製品情報](http://www.seeedstudio.com/depot/Grove-3Axis-Digital-Accelerometer400g-p-1897.html?cPath=25_132 "製品情報")
 * [技術情報](http://www.seeedstudio.com/wiki/Grove_-_3-Axis_Digital_Accelerometer "技術情報")
 * [ライブラリ](https://github.com/Seeed-Studio/Accelerometer_H3LIS331DL "ライブラリ")
@@ -151,7 +151,7 @@ exapmleを使って動作を
 なぜだか，ライブラリ提供のセンサの初期化機能が失敗するため動作確認できない
 (というか，新品なのに壊れている?)．
 
-### 3軸デジタル加速度センサ
+### 3軸デジタル加速度センサ(ADXL345)
 * [製品情報](http://www.seeedstudio.com/depot/Grove-3Axis-Digital-Accelerometer16g-p-1156.html?cPath=25_132 "製品情報")
 * [技術情報](http://www.seeedstudio.com/wiki/Grove_-_3-Axis_Digital_Accelerometer_ADXL345 "技術情報")
 * [ライブラリ](https://github.com/Seeed-Studio/Accelerometer_ADXL345 "ライブラリ")
@@ -479,7 +479,7 @@ http://www.seeedstudio.com/depot/Grove-PIR-Motion-Sensor-p-802.html
 http://garden.seeedstudio.com/index.php?title=Twig_-_PIR_Motion_Sensor
 "技術情報")
 * [ライブラリ](
-https://github.com/Seeed-Studio/PIR_Motion_Sensor"ライブラリ")
+https://github.com/Seeed-Studio/PIR_Motion_Sensor "ライブラリ")
 
 
 ### 
@@ -498,7 +498,7 @@ https://github.com/Seeed-Studio/Travelling_Mine
 https://github.com/Seeed-Studio/Air_Quality_Test_Box
 "ライブラリ")
 * [ライブラリ](
-https://github.com/Seeed-Studio/Grove_Alcohol_Sensor"ライブラリ")
+https://github.com/Seeed-Studio/Grove_Alcohol_Sensor "ライブラリ")
 
 ### 
 I2C ADC
