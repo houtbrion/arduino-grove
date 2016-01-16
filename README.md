@@ -611,6 +611,7 @@ SlidePotentiometer.ino
 
 
 ## UI
+
 ### ボタン
 * [製品情報](http://www.seeedstudio.com/depot/Grove-Button-p-766.html "製品情報")
 * [技術情報](http://www.seeedstudio.com/wiki/Grove_-_Button "技術情報")
@@ -625,7 +626,7 @@ SlidePotentiometer.ino
 
 ライブラリの
 [サンプルプログラム](
-
+https://github.com/houtbrion/arduino-grove/blob/master/SerialCameral_DemoCode_CJ_OV528_SoftSer/SerialCameral_DemoCode_CJ_OV528_SoftSer.ino
 "サンプルプログラム")のうち，ソフトシリアルを利用するものを本プロジェクトの「
 SerialCameral\_DemoCode\_CJ\_OV528\_SoftSer
 /
@@ -636,7 +637,6 @@ SerialCameral\_DemoCode\_CJ\_OV528\_SoftSer.ino
 
 ## 表示
 
-
 ### OLED display 1.12inch
 * [製品情報](http://www.seeedstudio.com/depot/Grove-OLED-Display-112-p-781.html "製品情報")
 * [技術情報](http://www.seeedstudio.com/wiki/Grove_-_OLED_Display_128*64 "技術情報")
@@ -644,8 +644,6 @@ SerialCameral\_DemoCode\_CJ\_OV528\_SoftSer.ino
 * [サンプルガジェット](https://github.com/Seeed-Studio/Travelling_Mine "サンプルガジェット")
 * [サンプルガジェット](https://github.com/Seeed-Studio/Air_Quality_Test_Box "サンプルガジェット")
 * [ライブラリ](https://github.com/Seeed-Studio/OLED_Display_128X64 "ライブラリ")
-
-
 
 ## 環境
 
@@ -668,7 +666,6 @@ Electricity\_Sensor
 
 中身はスターターキットの光センサと同じなので省略
 
-
 ### 赤外線距離センサ
 * [製品情報](http://www.seeedstudio.com/depot/Grove-IR-Distance-Interrupter-p-1278.html "製品情報")
 * [技術情報](http://www.seeedstudio.com/wiki/Grove_-_IR_Distance_Interrupt "技術情報")
@@ -682,7 +679,6 @@ IR\_Distance\_Sensor
 /
 IR\_Distance\_Sensor.ino
 」にも保存．
-
 
 ### 赤外線反射センサ
 * [製品情報](http://www.seeedstudio.com/depot/Grove-Infrared-Reflective-Sensor-p-1230.html?cPath=25_31 "製品情報")
@@ -780,9 +776,6 @@ Line\_Finder
 Line\_Finder.ino
 」に保存．
 
-
-
-
 ## その他
 ### 赤外線受信機
 * [製品情報](http://www.seeedstudio.com/depot/Grove-Infrared-Receiver-p-994.html"製品情報")
@@ -811,7 +804,6 @@ Magnetic\_Switch
 Magnetic\_Switch.ino
 」に保存し，元のサンプルプログラムに付属していたライセンスファイル等も添付．
 
-
 ### I2C ADC
 * [製品情報](http://www.seeedstudio.com/depot/Grove-I2C-ADC-p-1580.html "製品情報")
 * [技術情報](http://www.seeedstudio.com/wiki/Grove_-_I2C_ADC "技術情報")
@@ -826,19 +818,16 @@ I2C\_ADC
 I2C\_ADC.ino
 」にも保存．
 
-
-
-
 ### スイッチ(P)
 * [製品情報](http://www.seeedstudio.com/depot/Grove-SwitchP-p-1252.html "製品情報")
 
 ### 端子台
 * [製品情報](http://www.seeedstudio.com/depot/Grove-Screw-Terminal-p-996.html "製品情報")
 * [技術情報](http://www.seeedstudio.com/wiki/Grove_-_Screw_Terminal "技術情報")
+
 ### I2Cハブ
 * [製品情報](http://www.seeedstudio.com/depot/Grove-I2C-Hub-p-851.html "製品情報")
 * [技術情報](http://garden.seeedstudio.com/index.php?title=Twig_-_I2C_Hub "技術情報")
-
 
 
 ### Xbee Carrier
