@@ -47,6 +47,16 @@ LCDはシールドのI2Cに接続することで利用可能．
 スターターキットにはボタンは1つしかないため，2番に接続したボタンを押している間だけリレーが
 ONになるように変更．
 
+使用した
+[サンプルプログラム](
+https://github.com/houtbrion/arduino-grove/blob/master/smart_relay/smart_relay.ino
+"サンプルプログラム")は本プロジェクトの「
+smart\_relay
+/
+smart\_relay.ino
+」に保存．
+
+
 ### Grove - Buzzer
 * [製品情報](http://www.seeedstudio.com/depot/grove-buzzer-p-768.html?cPath=156_159 "製品情報")
 * [技術情報](http://www.seeedstudio.com/wiki/Grove_-_Buzzer "技術情報")
@@ -54,7 +64,9 @@ ONになるように変更．
 テストプログラムは，一定時間間隔でブザーがなるだけのプログラム．
 結構うるさい :-P
 
-* [buzzer.ino] (https://github.com/houtbrion/arduino-grove/blob/master/buzzer/buzzer.ino "サンプルプログラム")
+使用した
+[サンプルプログラム] (https://github.com/houtbrion/arduino-grove/blob/master/buzzer/buzzer.ino "サンプルプログラム")
+は本プロジェクトの「buzzer/buzzer.ino」．
 
 ### Grove - Sound Sensor
 * [製品情報](http://www.seeedstudio.com/depot/grove-sound-sensor-p-752.html?cPath=144_148 "製品情報")
@@ -62,6 +74,17 @@ ONになるように変更．
 
 Wikiのサンプルプログラムはデジタル3番ピンにLED, アナログ0番に音センサを繋いで使う．
 センサモジュール上のマイクに向かって喋るとLEDが光る．
+
+使用した
+[サンプルプログラム](
+https://github.com/houtbrion/arduino-grove/blob/master/sound_sensor/sound_sensor.ino
+"サンプルプログラム")は本プロジェクトの「
+sound\_sensor
+/
+sound\_sensor.ino
+」に保存．
+
+
 
 ### Grove - Touch Sensor
 * [製品情報](http://www.seeedstudio.com/depot/grove-touch-sensor-p-747.html?cPath=156_160 "製品情報")
@@ -73,6 +96,17 @@ Wikiのサンプルプログラムは
 LEDをデジタルの12番，タッチセンサをデジタルの9番に接続するようになっているが，groveのシールドは
 デジタルは2から8までしかないので，LEDをD3,センサをD8に接続するように変更．
 
+使用した
+[サンプルプログラム](
+https://github.com/houtbrion/arduino-grove/blob/master/touch_sensor/touch_sensor.ino
+"サンプルプログラム")は本プロジェクトの「
+touch\_sensor
+/
+touch\_sensor.ino
+」に保存．
+
+
+
 ### Grove - Rotary Angle Sensor
 * [製品情報](http://www.seeedstudio.com/depot/grove-rotary-angle-sensor-p-p-1242.html?cPath=156_160 "製品情報")
 * [技術情報](http://www.seeedstudio.com/wiki/Grove_-_Rotary_Angle_Sensor "技術情報")
@@ -80,6 +114,16 @@ LEDをデジタルの12番，タッチセンサをデジタルの9番に接続�
 Wikiのサンプルプログラムは，コメント欄にデジタル3番端子にLEDを接続して，アナログ0番にロータリーセンサをつける
 ことになっているが，実際のプログラムはデジタル2番端子にLEDをつけるようになっている．
 とりあえず，コメントに合わせてLEDの接続先は変更．
+
+使用した
+[サンプルプログラム](
+https://github.com/houtbrion/arduino-grove/blob/master/rotary_angle_sensor/rotary_angle_sensor.ino
+"サンプルプログラム")は本プロジェクトの「
+rotary\_angle\_sensor
+/
+rotary\_angle\_sensor.ino
+」に保存．
+
 
 ### Grove - Temperature Sensor
 * [製品情報](http://www.seeedstudio.com/depot/grove-temperature-sensor-p-774.html?cPath=144_147 "製品情報")
@@ -92,6 +136,18 @@ Wikiのサンプルプログラムは，アナログの5番端子に接続して
 * [サンプルプログラム](https://github.com/Seeed-Studio/Grove_Temperature_Sensor "サンプルプログラム")
 * [Suliライブラリ](https://github.com/Seeed-Studio/Temperature_Suli "Suliライブラリ")
 
+使用した
+[サンプルプログラム](
+https://github.com/houtbrion/arduino-grove/blob/master/temperature_sensor/temperature_sensor.ino
+"サンプルプログラム")は本プロジェクトの「
+temperature\_sensor
+/
+temperature\_sensor.ino
+」に保存．
+
+
+
+
 ### Grove - LED
 * [製品情報](http://www.seeedstudio.com/depot/Grove-LED-p-767.html?cPath=81_35 "製品情報")
 * [技術情報](http://www.seeedstudio.com/wiki/index.php?title=GROVE_-_Starter_Kit_v1.1b#Grove_-_LED "技術情報")
@@ -101,12 +157,28 @@ Wikiのサンプルプログラムは，ボタンとLEDの2つのモジュール
 
 モジュールを2つ使うのが面倒だったので，1秒間隔でLEDが点滅するプログラムに変更．
 
+なお，使用した
+[サンプルプログラム](
+https://github.com/houtbrion/arduino-grove/blob/master/led/led.ino
+"サンプルプログラム")は本プロジェクトの「
+led/
+led.ino
+」に保存．
+
 ### Grove - Light Sensor
 * [製品情報](http://www.seeedstudio.com/depot/Grove-Light-Sensor-p-746.html?cPath=25_27 "製品情報")
 * [技術情報](http://www.seeedstudio.com/wiki/Grove_-_Light_Sensor "技術情報")
 
 Wikiのサンプルプログラムはデジタル12ピンにLEDをつけるようになっているが，LEDはなしで
 動くようデジタル13番ピン(基板上のもの)に変更．
+使用した
+[サンプルプログラム](
+https://github.com/houtbrion/arduino-grove/blob/master/light_sensor/light_sensor.ino
+"サンプルプログラム")は本プロジェクトの「
+light\_sensor
+/
+light\_sensor.ino
+」に保存．
 
 ### Grove - Button
 * [製品情報](http://www.seeedstudio.com/depot/grove-button-p-766.html?cPath=156_160 "製品情報")
@@ -119,7 +191,10 @@ Wikiのサンプルプログラムの説明では，「デジタル13番ピン�
 テスト的に実行した際には，LEDは接続せず，groveシールドの下に隠れているLEDが点滅するようすを
 確認した．
 
-* [サンプルプログラム](https://github.com/houtbrion/arduino-grove/blob/master/button/button.ino "サンプルプログラム") 
+
+使用した
+[サンプルプログラム](https://github.com/houtbrion/arduino-grove/blob/master/button/button.ino "サンプルプログラム") 
+は本プロジェクトの「button/button.ino」．
 
 ## 音関係
 
@@ -129,6 +204,16 @@ Wikiのサンプルプログラムの説明では，「デジタル13番ピン�
 
 これは，スターターキットに入っている音センサと違い，環境音の大小を計測するためのもの．
 Wikiのサンプルプログラムは問題なく動作した．
+
+使用した
+[サンプルプログラム](
+https://github.com/houtbrion/arduino-grove/blob/master/loudness_sensor/loudness_sensor.ino
+"サンプルプログラム")は本プロジェクトの「
+loudness\_sensor
+/
+loudness\_sensor.ino
+」に保存．
+
 
 ## 位置や動作関係
 
@@ -145,6 +230,17 @@ exapmleを使って動作を
 
 なお，テストに用いたプログラムはSerialの通信速度を
 9600に落とした．
+
+使用した
+[サンプルプログラム](
+https://github.com/houtbrion/arduino-grove/blob/master/Triple_Axis_Digital_Compass/Triple_Axis_Digital_Compass.ino
+"サンプルプログラム")は本プロジェクトの「
+Triple\_Axis\_Digital\_Compass
+/
+Triple\_Axis\_Digital\_Compass.ino
+」に保存．
+
+
 
 ### 3軸デジタル加速度センサ(H3LI331DL)
 * [製品情報](http://www.seeedstudio.com/depot/Grove-3Axis-Digital-Accelerometer400g-p-1897.html?cPath=25_132 "製品情報")
@@ -187,6 +283,16 @@ exapmleを使って動作を
 
 githubにライブラリではなく，サンプルプログラムだけが公開されている．
 
+使用した
+[サンプルプログラム](
+https://github.com/houtbrion/arduino-grove/blob/master/Single_Axis_Analog_Gyro_Test_Code/Single_Axis_Analog_Gyro_Test_Code.ino
+"サンプルプログラム")は本プロジェクトの「
+Single\_Axis\_Analog\_Gyro\_Test\_Code
+/
+Single\_Axis\_Analog\_Gyro\_Test\_Code.ino
+」にも保存．
+
+
 
 ### ロータリーエンコーダ
 * [製品情報](http://www.seeedstudio.com/depot/Grove-Encoder-p-1352.html "製品情報")
@@ -220,6 +326,14 @@ githubにライブラリではなく，サンプルプログラムだけが公�
 * [技術情報](http://www.seeedstudio.com/wiki/Grove_-_Thumb_Joystick "技術情報")
 
 Wikiのサンプルプログラムは変更など必要なく，素直に動作した．
+使用した
+[サンプルプログラム](
+https://github.com/houtbrion/arduino-grove/blob/master/Thumb_Joystick/Thumb_Joystick.ino
+"サンプルプログラム")は本プロジェクトの「
+Thumb\_Joystick
+/
+Thumb\_Joystick.ino
+」に保存．
 
 
 ## 表示関係
@@ -239,13 +353,21 @@ Wikiのサンプルプログラムは変更など必要なく，素直に動作�
 
 * [Suliライブラリ](https://github.com/Seeed-Studio/LED_Bar_Suli "Suliライブラリ")
 
+なお，使用した
+[サンプルプログラム](
+https://github.com/houtbrion/arduino-grove/blob/master/Grove_LED_Bar/Grove_LED_Bar.ino
+"サンプルプログラム")は本プロジェクトの「
+Grove\_LED\_Bar/
+Grove\_LED\_Bar.ino
+」に保存．
+
 
 ### 赤色LED
 * [製品情報](http://www.seeedstudio.com/depot/Grove-Red-LED-p-1142.html "製品情報")
 * [技術情報](http://www.seeedstudio.com/wiki/Grove_-_LED "技術情報")
 
 スターターキットに入っているLEDソケットと同じ(赤色LEDが添付されているところが違い)
-である．
+である．詳細はそちらを参照のこと．
 
 ### サークル型LED
 * [製品情報](http://www.seeedstudio.com/depot/Grove-Circular-LED-p-1353.html?cPath=81_35 "製品情報")
@@ -258,12 +380,26 @@ Wikiのサンプルプログラムは変更など必要なく，素直に動作�
 grove用のシールド基板では使えない端子を
 使っていたため，その部分は変更．
 
+使用した
+[サンプルプログラム](
+https://github.com/houtbrion/arduino-grove/blob/master/CircularLEDtest/CircularLEDtest.ino
+"サンプルプログラム")は本プロジェクトの「CircularLEDtest/CircularLEDtest.ino」に保存．
+
 ### RGB LED
 * [製品情報](http://www.seeedstudio.com/depot/Grove-Chainable-RGB-LED-p-850.html "製品情報")
 * [技術情報](http://www.seeedstudio.com/wiki/index.php?title=Twig_-_Chainable_RGB_LED "技術情報")
 * [ライブラリ](https://github.com/Seeed-Studio/Grove_Chainable_RGB_LED "ライブラリ")
 
-ライブラリ付属の「CycleThroughColors」を改造したもので動作を確認．
+ライブラリ付属の「
+CycleThroughColors
+」を改造したもので動作を確認．
+使用した
+[サンプルプログラム](
+https://github.com/houtbrion/arduino-grove/blob/master/CycleThroughColors/CycleThroughColors.ino
+"サンプルプログラム")は本プロジェクトの「
+CycleThroughColors/
+CycleThroughColors.ino
+」に保存．
 
 ### 7セグメント4桁ディスプレイ
 * [製品情報](http://www.seeedstudio.com/depot/Grove-4Digit-Display-p-1198.html "製品情報")
@@ -360,9 +496,27 @@ githubには別の種類のライブラリも存在．
 * [製品情報](http://www.seeedstudio.com/depot/Grove-Speaker-p-1445.html "製品情報")
 * [技術情報](http://www.seeedstudio.com/wiki/Grove_-_Speaker "技術情報")
 
+使用した
+[サンプルプログラム](
+https://github.com/houtbrion/arduino-grove/blob/master/Speaker/Speaker.ino
+"サンプルプログラム")は本プロジェクトの「
+Speaker
+/
+Speaker.ino
+」に保存．
+
 ### ラインファインダ
 * [製品情報](http://www.seeedstudio.com/depot/Grove-Line-Finder-p-825.html "製品情報")
 * [技術情報](http://www.seeedstudio.com/wiki/index.php?title=Twig_-_Line_Finder "技術情報")
+
+使用した
+[サンプルプログラム](
+https://github.com/houtbrion/arduino-grove/blob/master/Line_Finder/Line_Finder.ino
+"サンプルプログラム")は本プロジェクトの「
+Line\_Finder
+/
+Line\_Finder.ino
+」に保存．
 
 ### 光センサ(パネルタイプ)
 * [製品情報](http://www.seeedstudio.com/depot/Grove-Light-SensorP-p-1253.html "製品情報")
@@ -377,102 +531,216 @@ githubには別の種類のライブラリも存在．
 
 ライブラリはデジタル版のモジュールと同じ．
 
-
 ### 赤外線受信機
 * [製品情報](http://www.seeedstudio.com/depot/Grove-Infrared-Receiver-p-994.html"製品情報")
 * [技術情報](http://www.seeedstudio.com/wiki/Grove_-_Infrared_Receiver "技術情報")
 * [ライブラリ](https://github.com/Seeed-Studio/IRSendRev "ライブラリ")
 
-* [ライブラリ](https://github.com/Seeed-Studio/MagicBracelet "ライブラリ")
+* このモジュールを使ったサンプルの[ガジェット](https://github.com/Seeed-Studio/MagicBracelet "ガジェット")
+
+### 赤外線発信機
+* [製品情報](http://www.seeedstudio.com/depot/Grove-Infrared-Emitter-p-993.html "製品情報")
+* [技術情報](http://www.seeedstudio.com/wiki/Grove_-_Infrared_Emitter "技術情報")
+* このモジュールを使ったサンプルの[ガジェット](https://github.com/Seeed-Studio/MagicBracelet "ガジェット")
+* [ライブラリ](https://github.com/Seeed-Studio/IRSendRev "ライブラリ")
+
+### 赤外線距離センサ
+* [製品情報](http://www.seeedstudio.com/depot/Grove-IR-Distance-Interrupter-p-1278.html "製品情報")
+* [技術情報](http://www.seeedstudio.com/wiki/Grove_-_IR_Distance_Interrupt "技術情報")
+* [サンプルプログラム](https://github.com/Seeed-Studio/Grove_IR_Distance_Sensor "サンプルプログラム")
+
+上記サンプルプログラムのリポジトリから
+[必要なものだけを抜き出したもの](
+https://github.com/houtbrion/arduino-grove/blob/master/IR_Distance_Sensor/IR_Distance_Sensor.ino
+"サンプルプログラム")を本プロジェクトの「
+IR\_Distance\_Sensor
+/
+IR\_Distance\_Sensor.ino
+」にも保存．
+
+
+### 赤外線反射センサ
+* [製品情報](http://www.seeedstudio.com/depot/Grove-Infrared-Reflective-Sensor-p-1230.html?cPath=25_31 "製品情報")
+* [技術情報](http://www.seeedstudio.com/wiki/Grove_-_Infrared_Reflective_Sensor "技術情報")
+
+使用した
+[サンプルプログラム](
+https://github.com/houtbrion/arduino-grove/blob/master/IR_Reflective_Sensor/IR_Reflective_Sensor.ino
+"サンプルプログラム")は本プロジェクトの「
+IR\_Reflective\_Sensor
+/
+IR\_Reflective\_Sensor.ino
+」に保存．
+
+このサンプルプログラムは
+[TimerOneライブラリ](http://www.seeedstudio.com/wiki/File:TimerOne.zip "TimerOneライブラリ")
+も利用しているため，
+実際に使う際にはそちらも導入しておくこと．
 
 ### 磁気スイッチ
 * [製品情報](http://www.seeedstudio.com/depot/Grove-Magnetic-Switch-p-744.html "製品情報")
 * [技術情報](http://www.seeedstudio.com/wiki/index.php?title=Twig_-_Magnetic_Switch "技術情報")
 * [ライブラリ](https://github.com/Seeed-Studio/Magnetic_Switch "ライブラリ")
 
+使用した
+[サンプルプログラム](
+https://github.com/houtbrion/arduino-grove/blob/master/Magnetic_Switch/Magnetic_Switch.ino
+"サンプルプログラム")は本プロジェクトの「
+Magnetic\_Switch
+/
+Magnetic\_Switch.ino
+」に保存し，元のサンプルプログラムに付属していたライセンスファイル等も添付．
+
 ### ボタン
 * [製品情報](http://www.seeedstudio.com/depot/Grove-Button-p-766.html "製品情報")
 * [技術情報](http://www.seeedstudio.com/wiki/Grove_-_Button "技術情報")
+このモジュールはパネルタイプのボタンで技術的にはパネル無しの物と全く同じであるため，
+詳細は省く．
 
 ### 電流センサ
 * [製品情報](http://www.seeedstudio.com/depot/Grove-Electricity-Sensor-p-777.html?cPath=25_28 "製品情報")
 * [技術情報](http://garden.seeedstudio.com/index.php?title=Twig_-_Electricity_Sensor "技術情報")
 
+使用した
+[サンプルプログラム](
+https://github.com/houtbrion/arduino-grove/blob/master/Electricity_Sensor/Electricity_Sensor.ino
+"サンプルプログラム")は本プロジェクトの「
+Electricity\_Sensor
+/
+Electricity\_Sensor
+」に保存．
 
 ### PIRモーションセンサ
 * [製品情報](http://www.seeedstudio.com/depot/Grove-PIR-Motion-Sensor-p-802.html "製品情報")
 * [技術情報](http://garden.seeedstudio.com/index.php?title=Twig_-_PIR_Motion_Sensor "技術情報")
-* [ライブラリ](https://github.com/Seeed-Studio/PIR_Motion_Sensor "ライブラリ")
+* [サンプルプログラム](https://github.com/Seeed-Studio/PIR_Motion_Sensor "サンプルプログラム")
 
+公式[サンプルプログラム](
+https://github.com/houtbrion/arduino-grove/blob/master/PIRMotionSensor/PIRMotionSensor.ino
+"サンプルプログラム")の写しを本プロジェクトの「
+PIRMotionSensor
+/
+PIRMotionSensor.ino
+」に保存．
 
 ### アルコールセンサ
 * [製品情報](http://www.seeedstudio.com/depot/Grove-Alcohol-Sensor-p-764.html "製品情報")
 * [技術情報](http://www.seeedstudio.com/wiki/index.php?title=Twig_-_Alcohol_Sensor "技術情報")
-* [ライブラリ](https://github.com/Seeed-Studio/Travelling_Mine "ライブラリ")
-* [ライブラリ](https://github.com/Seeed-Studio/Air_Quality_Test_Box "ライブラリ")
-* [ライブラリ](https://github.com/Seeed-Studio/Grove_Alcohol_Sensor "ライブラリ")
+* [サンプルガジェット](https://github.com/Seeed-Studio/Travelling_Mine "サンプルガジェット")
+* [サンプルガジェット](https://github.com/Seeed-Studio/Air_Quality_Test_Box "サンプルガジェット")
+* [サンプルプログラム](https://github.com/Seeed-Studio/Grove_Alcohol_Sensor "サンプルプログラム")
+
+使用した
+[サンプルプログラム](
+https://github.com/houtbrion/arduino-grove/blob/master/Grove_Alcohol_Sensor/Grove_Alcohol_Sensor.ino
+"サンプルプログラム")は本プロジェクトの「
+Grove\_Alcohol\_Sensor
+/
+Grove\_Alcohol\_Sensor.ino
+」に保存．
+
 
 ### I2C ADC
 * [製品情報](http://www.seeedstudio.com/depot/Grove-I2C-ADC-p-1580.html "製品情報")
 * [技術情報](http://www.seeedstudio.com/wiki/Grove_-_I2C_ADC "技術情報")
 * [ライブラリ](https://github.com/Seeed-Studio/I2C_ADC_Suli "ライブラリ")
 
+技術情報のWikiの
+[サンプルプログラム](
+https://github.com/houtbrion/arduino-grove/blob/master/I2C_ADC/I2C_ADC.ino
+"サンプルプログラム")は本プロジェクトの「
+I2C\_ADC
+/
+I2C\_ADC.ino
+」にも保存．
+
+
 ### GPS
 * [製品情報](http://www.seeedstudio.com/depot/Grove-GPS-p-959.html "製品情報")
 * [技術情報](http://www.seeedstudio.com/wiki/Grove_-_GPS "技術情報")
 
+使用した
+[サンプルプログラム](
+https://github.com/houtbrion/arduino-grove/blob/master/GPS/GPS.ino
+"サンプルプログラム")は本プロジェクトの「
+GPS
+/
+GPS.ino
+」に保存．
+
+
 ### 水センサ
 * [製品情報](http://www.seeedstudio.com/depot/Grove-Water-Sensor-p-748.html?cPath=25_27 "製品情報")
 * [技術情報](http://garden.seeedstudio.com/index.php?title=Twig_-_Water_Sensor "技術情報")
-* [ライブラリ](https://github.com/Seeed-Studio/Grove_Water_Sensor "ライブラリ")
+* [サンプルプログラム](https://github.com/Seeed-Studio/Grove_Water_Sensor "サンプルプログラム")
 
-### 赤外線反射センサ
-* [製品情報](http://www.seeedstudio.com/depot/Grove-Infrared-Reflective-Sensor-p-1230.html?cPath=25_31 "製品情報")
-* [技術情報](http://www.seeedstudio.com/wiki/Grove_-_Infrared_Reflective_Sensor "技術情報")
+技術情報のWikiの
+[サンプルプログラム](
+https://github.com/houtbrion/arduino-grove/blob/master/Water_Sensor/Water_Sensor.ino
+"サンプルプログラム")は本プロジェクトの「
+Water\_Sensor
+/
+Water\_Sensor.ino
+」に保存．
 
-### 赤外線距離センサ
-* [製品情報](http://www.seeedstudio.com/depot/Grove-IR-Distance-Interrupter-p-1278.html "製品情報")
-* [技術情報](http://www.seeedstudio.com/wiki/Grove_-_IR_Distance_Interrupt "技術情報")
-* [ライブラリ](https://github.com/Seeed-Studio/Grove_IR_Distance_Sensor "ライブラリ")
 
 ### スイッチ(P)
 * [製品情報](http://www.seeedstudio.com/depot/Grove-SwitchP-p-1252.html "製品情報")
 
-### 赤外線発信機
-* [製品情報](http://www.seeedstudio.com/depot/Grove-Infrared-Emitter-p-993.html "製品情報")
-* [技術情報](http://www.seeedstudio.com/wiki/Grove_-_Infrared_Emitter "技術情報")
-* [ライブラリ](https://github.com/Seeed-Studio/MagicBracelet "ライブラリ")
-* [ライブラリ](https://github.com/Seeed-Studio/IRSendRev "ライブラリ")
-
 ### 水分センサ
 * [製品情報](http://www.seeedstudio.com/depot/Grove-Moisture-Sensor-p-955.html "製品情報")
 * [技術情報](http://seeedstudio.com/wiki/Grove_-_Moisture_Sensor "技術情報")
-* [ライブラリ](https://github.com/Seeed-Studio/Moisture_Sensor "ライブラリ")
+* [サンプルプログラム](https://github.com/Seeed-Studio/Moisture_Sensor "サンプルプログラム")
 
+[サンプルプログラム](
+https://github.com/houtbrion/arduino-grove/blob/master/Moisture_Sensor/Moisture_Sensor.ino
+"サンプルプログラム")は本プロジェクトの「
+Moisture\_Sensor
+/
+Moisture\_Sensor
+」にも保存．
 
 ### シリアルカメラキット
 * [製品情報](http://www.seeedstudio.com/depot/Grove-Serial-Camera-Kit-p-1608.html "製品情報")
 * [技術情報](http://www.seeedstudio.com/wiki/Grove_-_Serial_Camera_Kit "技術情報")
 * [ライブラリ](https://github.com/Seeed-Studio/Grove_Serial_Camera_Kit "ライブラリ")
 
+ライブラリの
+[サンプルプログラム](
+
+"サンプルプログラム")のうち，ソフトシリアルを利用するものを本プロジェクトの「
+SerialCameral\_DemoCode\_CJ\_OV528\_SoftSer
+/
+SerialCameral\_DemoCode\_CJ\_OV528\_SoftSer.ino
+」に収録．
+
 ### Ultrasonic Ranger
 * [製品情報](http://www.seeedstudio.com/depot/Grove-Ultrasonic-Ranger-p-960.html "製品情報")
 * [技術情報](http://www.seeedstudio.com/wiki/Grove_-_Ultrasonic_Ranger "技術情報")
 * [ライブラリ](https://github.com/Seeed-Studio/Grove_Ultrasonic_Ranger "ライブラリ")
 
-
 ### スライドボリューム
 * [製品情報](http://www.seeedstudio.com/depot/Grove-Slide-Potentiometer-p-1196.html "製品情報")
 * [技術情報](http://www.seeedstudio.com/wiki/Sliding_Potentiometer "技術情報")
 
+技術情報のWikiの
+[サンプルプログラム](
+https://github.com/houtbrion/arduino-grove/blob/master/SlidePotentiometer/SlidePotentiometer.ino
+"サンプルプログラム")は本プロジェクトの「
+SlidePotentiometer
+/
+SlidePotentiometer.ino
+」に保存．
 
 ### OLED display 1.12inch
 * [製品情報](http://www.seeedstudio.com/depot/Grove-OLED-Display-112-p-781.html "製品情報")
 * [技術情報](http://www.seeedstudio.com/wiki/Grove_-_OLED_Display_128*64 "技術情報")
 * [ライブラリ](https://github.com/Seeed-Studio/OLED_128x64_Suli "ライブラリ")
-* [ライブラリ](https://github.com/Seeed-Studio/Travelling_Mine "ライブラリ")
-* [ライブラリ](https://github.com/Seeed-Studio/Air_Quality_Test_Box "ライブラリ")
+* [サンプルガジェット](https://github.com/Seeed-Studio/Travelling_Mine "サンプルガジェット")
+* [サンプルガジェット](https://github.com/Seeed-Studio/Air_Quality_Test_Box "サンプルガジェット")
 * [ライブラリ](https://github.com/Seeed-Studio/OLED_Display_128X64 "ライブラリ")
+
+
 
 
 ### Serial MP3 Player
@@ -480,10 +748,24 @@ githubには別の種類のライブラリも存在．
 * [技術情報](http://www.seeedstudio.com/wiki/Grove_%E2%80%93_Serial_MP3_Player "技術情報")
 * [ライブラリ](https://github.com/Seeed-Studio/Grove_Serial_MP3_Player "ライブラリ")
 
+技術情報のWikiの
+[サンプルプログラム](
+https://github.com/houtbrion/arduino-grove/tree/master/Grove_Serial_MP3_Player
+"サンプルプログラム")は本プロジェクトの「
+Grove\_Serial\_MP3\_Player
+/
+Grove\_Serial\_MP3\_Player.ino
+」に保存．
+
+
 ### ボリューム(パネルタイプ)
 * [製品情報](http://www.seeedstudio.com/depot/Grove-Rotary-Angle-SensorP-p-1242.html "製品情報")
 * [技術情報](http://www.seeedstudio.com/wiki/Grove_-_Rotary_Angle_Sensor "技術情報")
-* [ライブラリ](https://github.com/Seeed-Studio/Rotary_Angle_Sensor "ライブラリ")
+* [サンプルプログラム](https://github.com/Seeed-Studio/Rotary_Angle_Sensor "サンプルプログラム")
+
+ソフト的にはパネルタイプか否かは関係がないため，ソフトや
+動作確認の情報は省略．
+詳細はスターターキットの内容を参照．
 
 ### 端子台
 * [製品情報](http://www.seeedstudio.com/depot/Grove-Screw-Terminal-p-996.html "製品情報")
@@ -492,7 +774,11 @@ githubには別の種類のライブラリも存在．
 ### ボリューム
 * [製品情報](http://www.seeedstudio.com/depot/Grove-Rotary-Angle-Sensor-p-770.html?cPath=85_52 "製品情報")
 * [技術情報](http://www.seeedstudio.com/wiki/Grove_-_Rotary_Angle_Sensor "技術情報")
-* [ライブラリ](https://github.com/Seeed-Studio/Rotary_Angle_Sensor "ライブラリ")
+* [サンプルプログラム](https://github.com/Seeed-Studio/Rotary_Angle_Sensor "サンプルプログラム")
+
+ライブラリはボリュームの種類に関係ないため，動作確認についての情報は
+スターターキットの
+内容を参照．
 
 ### I2Cハブ
 * [製品情報](http://www.seeedstudio.com/depot/Grove-I2C-Hub-p-851.html "製品情報")
@@ -501,22 +787,50 @@ githubには別の種類のライブラリも存在．
 ### 火炎センサ
 * [製品情報](http://www.seeedstudio.com/depot/Grove-Flame-Sensor-p-1450.html"製品情報")
 * [技術情報](http://www.seeedstudio.com/wiki/Grove_-_Flame_Sensor "技術情報")
-* [ライブラリ](https://github.com/Seeed-Studio/Grove_Flame_Sensor "ライブラリ")
+* [サンプルプログラム](https://github.com/Seeed-Studio/Grove_Flame_Sensor "ライブラリ")
+
+[サンプルプログラム](
+https://github.com/houtbrion/arduino-grove/blob/master/Flame_Sensor/Flame_Sensor.ino
+"サンプルプログラム")は本プロジェクトの「
+Flame\_Sensor
+/
+Flame\_Sensor.ino
+」にも収録．
+
 
 ### GSR
 * [製品情報](http://www.seeedstudio.com/depot/Grove-GSR-sensor-p-1614.html "製品情報")
 * [技術情報](http://www.seeedstudio.com/wiki/Grove_-_GSR_Sensor "技術情報")
 
+技術情報のWikiの
+[サンプルプログラム](
+https://github.com/houtbrion/arduino-grove/blob/master/GSR_Sensor/GSR_Sensor.ino
+"サンプルプログラム")は本プロジェクトの「
+GSR\_Sensor
+/
+GSR\_Sensor.ino
+」に保存．
+
+
+
 
 ### Xbee Carrier
 * [製品情報](http://www.seeedstudio.com/depot/Grove-XBee-Carrier-p-905.html "製品情報")
-* [技術情報](http://garden.seeedstudio.com/index.php?title=Bee_Stem"技術情報")
+* [技術情報](http://garden.seeedstudio.com/index.php?title=Bee_Stem "技術情報")
 
 
 ### チルトスイッチ
 * [製品情報](http://www.seeedstudio.com/depot/Grove-Tilt-Switch-p-771.html "製品情報")
 * [技術情報](http://www.seeedstudio.com/wiki/Grove_-_Tilt_Switch "技術情報")
 
+技術情報のWikiの
+[サンプルプログラム](
+https://github.com/houtbrion/arduino-grove/blob/master/Tilt_Switch/Tilt_Switch.ino
+"サンプルプログラム")は本プロジェクトの「
+Tilt\_Switch
+/
+Tilt\_Switch.ino
+」に保存．
 
 
 
