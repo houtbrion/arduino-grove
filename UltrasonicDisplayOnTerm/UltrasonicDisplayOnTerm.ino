@@ -1,11 +1,11 @@
 /*
- * MagnetControlLED.ino
- * Example sketch for magnetic switch
+ * UltrasonicDisplayOnTerm.ino
+ * Example sketch for ultrasonic ranger
  *
  * Copyright (c) 2012 seeed technology inc.
  * Website    : www.seeed.cc
- * Author     : FrankieChu
- * Create Time: Jan 16,2013
+ * Author     : LG, FrankieChu
+ * Create Time: Jan 17,2013
  * Change Log :
  *
  * The MIT License (MIT)
@@ -28,60 +28,36 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
- 
- 
-/*****************************************************************************/
-//	Function:	 If the magnetic switch is near the magnet, the on board LED 
-//			 of the Arduino or Seeeduino will be turned on, otherwise the 
-//			 LED will be turned off.
+
+
+/***************************************************************************/
+//	Function: Measure the distance to obstacles in front and print the distance
+//			  value to the serial terminal.The measured distance is from
+//			  the range 0 to 400cm(157 inches).
+//	Hardware: Grove - Ultrasonic Ranger
 //	Arduino IDE: Arduino-1.0
-/*******************************************************************************/
+/*****************************************************************************/
 
-/*macro definitions of magnetic pin and LED pin*/
-#define MAGNECTIC_SWITCH 8
-#define LED	2//the on board LED of the Arduino or Seeeduino
+#include "Ultrasonic.h"
 
+Ultrasonic ultrasonic(7);
 void setup()
 {
- 	pinsInit();
+	Serial.begin(9600);
 }
- 
-void loop() 
+void loop()
 {
-	if(isNearMagnet())//if the magnetic switch is near the magnet?
-	{
-		turnOnLED();
-	}
-	else
-	{
-		turnOffLED();
-	}
-}
-void pinsInit()
-{
-	pinMode(MAGNECTIC_SWITCH, INPUT);
-	pinMode(LED,OUTPUT);
-}
-
-/*If the magnetic switch is near the magnet, it will return ture, */
-/*otherwise it will return false								*/
-boolean isNearMagnet()
-{
-	int sensorValue = digitalRead(MAGNECTIC_SWITCH);
-	if(sensorValue == HIGH)//if the sensor value is HIGH?
-	{
-		return true;//yes,return ture
-	}
-	else
-	{
-		return false;//no,return false
-	}
-}
-void turnOnLED()
-{
-	digitalWrite(LED,HIGH);
-}
-void turnOffLED()
-{
-	digitalWrite(LED,LOW);
+	long RangeInInches;
+	long RangeInCentimeters;
+	
+	Serial.println("The distance to obstacles in front is: ");
+	RangeInInches = ultrasonic.MeasureInInches();
+	Serial.print(RangeInInches);//0~157 inches
+	Serial.println(" inch");
+	delay(250);
+	
+	RangeInCentimeters = ultrasonic.MeasureInCentimeters(); // two measurements should keep an interval
+	Serial.print(RangeInCentimeters);//0~400cm
+	Serial.println(" cm");
+	delay(250);
 }

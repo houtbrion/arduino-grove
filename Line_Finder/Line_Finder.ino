@@ -16,5 +16,5 @@ void loop()
   if(HIGH == digitalRead(signalPin))
     Serial.println("black");
     else  Serial.println("white");  // display the color
-  	//delay(1000);                  // wait for a second
+  delay(1000);                  // wait for a second
 }

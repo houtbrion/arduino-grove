@@ -1,5 +1,5 @@
 int adcPin = A0; // select the input pin for the potentiometer
-  int ledPin = A1; // select the pin for the LED
+  int ledPin = 2; // select the pin for the LED
   int adcIn = 0;   // variable to store the value coming from the sensor
 void setup() 
 {

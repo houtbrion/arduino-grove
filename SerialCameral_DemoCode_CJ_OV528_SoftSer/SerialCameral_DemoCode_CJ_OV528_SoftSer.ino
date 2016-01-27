@@ -7,6 +7,7 @@
 //  For more details about the product please check http://www.seeedstudio.com/depot/
 
 #include <arduino.h>
+#include <SPI.h>
 #include <SD.h>
 #include <SoftwareSerial.h>
 
@@ -23,20 +24,20 @@ File myFile;
 SoftwareSerial softSerial(2, 3);  //rx,tx (11-13 is used by sd shield)
 
 const byte cameraAddr = (CAM_ADDR << 5);  // addr
-const int buttonPin = A5;                 // the number of the pushbutton pin
+const int buttonPin = A0;                 // the number of the pushbutton pin
 unsigned long picTotalLen = 0;            // picture length
 int picNameNum = 0;
 
 /*********************************************************************/
 void setup()
 {
-  Serial.begin(115200);
+  Serial.begin(9600);
   CAM_SERIAL.begin(9600);       //cant be faster than 9600, maybe difference with diff board.
   pinMode(buttonPin, INPUT);    // initialize the pushbutton pin as an input
   //Serial.println("Initializing SD card....");
-  pinMode(4,OUTPUT);          // CS pin of SD Card Shield
+  pinMode(8,OUTPUT);          // CS pin of SD Card Shield
   
-  if (!SD.begin(4)) {
+  if (!SD.begin(8)) {
     //Serial.print("sd init failed");
     return;
   }

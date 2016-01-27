@@ -692,6 +692,19 @@ Magnetic\_Switch.ino
 
 ## その他
 
+### 電流センサ
+* [製品情報](http://www.seeedstudio.com/depot/Grove-Electricity-Sensor-p-777.html?cPath=25_28 "製品情報")
+* [技術情報](http://garden.seeedstudio.com/index.php?title=Twig_-_Electricity_Sensor "技術情報")
+
+使用した
+[サンプルプログラム](
+https://github.com/houtbrion/arduino-grove/blob/master/Electricity_Sensor/Electricity_Sensor.ino
+"サンプルプログラム")は本プロジェクトの「
+Electricity\_Sensor
+/
+Electricity\_Sensor
+」に保存．
+
 ### RTC
 * [製品情報](http://www.seeedstudio.com/depot/Grove-RTC-p-758.html?cPath=25_131 "製品情報")
 * [技術情報](http://www.seeedstudio.com/wiki/Grove_-_RTC "技術情報")
@@ -752,6 +765,30 @@ Line\_Finder
 Line\_Finder.ino
 」に保存．
 
+### 赤外線送受信機
+以下の2つのモジュールを使い，githubのライブラリ添付のサンプルプログラムを用いて
+送受信の試験を行った．
+一つだけ気をつける必要があるのは，受信機側はソースコードに
+受信機をつなぐ端子の指定がされているが，
+送信機側は不明確である．
+また，モジュール側もどの端子がデータ端子か書いてない．
+ただし，
+技術情報のWikiにはD3端子が発信機のデータ端子と書いてあることと，
+通常，groveのモジュールはVCC,GNDとデータピンが1つの場合は，外側しか
+使っていないので同じノリで配線して動作させたところ，動作を確認できた．
+####受信機
+* [製品情報](http://www.seeedstudio.com/depot/Grove-Infrared-Receiver-p-994.html"製品情報")
+* [技術情報](http://www.seeedstudio.com/wiki/Grove_-_Infrared_Receiver "技術情報")
+* [ライブラリ](https://github.com/Seeed-Studio/IRSendRev "ライブラリ")
+
+* このモジュールを使ったサンプルの[ガジェット](https://github.com/Seeed-Studio/MagicBracelet "ガジェット")
+
+#### 発信機
+* [製品情報](http://www.seeedstudio.com/depot/Grove-Infrared-Emitter-p-993.html "製品情報")
+* [技術情報](http://www.seeedstudio.com/wiki/Grove_-_Infrared_Emitter "技術情報")
+* このモジュールを使ったサンプルの[ガジェット](https://github.com/Seeed-Studio/MagicBracelet "ガジェット")
+* [ライブラリ](https://github.com/Seeed-Studio/IRSendRev "ライブラリ")
+
 
 ### 端子台
 * [製品情報](http://www.seeedstudio.com/depot/Grove-Screw-Terminal-p-996.html "製品情報")
@@ -771,6 +808,14 @@ Line\_Finder.ino
 
 
 # 調査中
+購入したモジュールの中で動作が確認できていないものは以下のとおり．
+電流センサ以外はハードの故障の可能性がある．
+
+電流センサは測定用の配線材料を買わないと行けないのでしばらく動作確認不能．
+
+しかし，ハードの初期不良だとすると発生頻度が高い．
+ソフト的な問題にしても情報がなさすぎて
+DEBUG困難．
 
 ##音関係
 
@@ -801,22 +846,7 @@ Grove\_Serial\_MP3\_Player.ino
 (というか，新品なのに壊れている?)．
 
 
-## UI
-
 ## 環境
-
-### 電流センサ
-* [製品情報](http://www.seeedstudio.com/depot/Grove-Electricity-Sensor-p-777.html?cPath=25_28 "製品情報")
-* [技術情報](http://garden.seeedstudio.com/index.php?title=Twig_-_Electricity_Sensor "技術情報")
-
-使用した
-[サンプルプログラム](
-https://github.com/houtbrion/arduino-grove/blob/master/Electricity_Sensor/Electricity_Sensor.ino
-"サンプルプログラム")は本プロジェクトの「
-Electricity\_Sensor
-/
-Electricity\_Sensor
-」に保存．
 
 ### アルコールセンサ
 * [製品情報](http://www.seeedstudio.com/depot/Grove-Alcohol-Sensor-p-764.html "製品情報")
@@ -837,23 +867,26 @@ Grove\_Alcohol\_Sensor.ino
 
 また，実際のArduinoで動作させたところ，センサにヒーターがついており，ヒーターに
 電流が流れると本体(Arduino)がまともに動作しなくなる．
-USB経由での電力供給だけでは電力が不足しているのかもしれない．
-ここについては別途確認が必要．
+具体的には，ArduinoのUSBシリアルがPCから見えなくなり，
+使えなくなる．
+
+さらに，github上のサンプルプログラム(本プロジェクトの
+「
+DetectAlchoholVapor
+/
+DetectAlchoholVapor.ino
+」)も試したが，アルコールセンサを繋いで
+動作させると止まる．
+
+USB経由での電力供給だけでは電力が不足しているのかもしれないと考えて，
+ACアダプタとUSBと両方接続したが，改善しなかった．
+
+サンプルプログラムや技術情報のWikiでは，5～10分センサがあたたまるのに
+必要と書かれているが，10分以上待っても同じ?
+
+やはり，これも新品なのに故障?
 
 ## その他
-### 赤外線受信機
-* [製品情報](http://www.seeedstudio.com/depot/Grove-Infrared-Receiver-p-994.html"製品情報")
-* [技術情報](http://www.seeedstudio.com/wiki/Grove_-_Infrared_Receiver "技術情報")
-* [ライブラリ](https://github.com/Seeed-Studio/IRSendRev "ライブラリ")
-
-* このモジュールを使ったサンプルの[ガジェット](https://github.com/Seeed-Studio/MagicBracelet "ガジェット")
-
-### 赤外線発信機
-* [製品情報](http://www.seeedstudio.com/depot/Grove-Infrared-Emitter-p-993.html "製品情報")
-* [技術情報](http://www.seeedstudio.com/wiki/Grove_-_Infrared_Emitter "技術情報")
-* このモジュールを使ったサンプルの[ガジェット](https://github.com/Seeed-Studio/MagicBracelet "ガジェット")
-* [ライブラリ](https://github.com/Seeed-Studio/IRSendRev "ライブラリ")
-
 ### I2C ADC
 * [製品情報](http://www.seeedstudio.com/depot/Grove-I2C-ADC-p-1580.html "製品情報")
 * [技術情報](http://www.seeedstudio.com/wiki/Grove_-_I2C_ADC "技術情報")
