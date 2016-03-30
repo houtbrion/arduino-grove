@@ -921,3 +921,21 @@ Tilt\_Switch.ino
 振るとカラカラ音がするから，壊れている可能性大．
 買ったばかりなのに．
 
+
+### Grove - 125KHz RFID Reader
+* [製品情報](http://www.seeedstudio.com/depot/Grove-125KHz-RFID-Reader-p-1008.html "製品情報")
+* [技術情報](http://www.seeedstudio.com/wiki/Grove_-_125KHz_RFID_Reader "技術情報")
+
+技術情報のWikiの
+[サンプルプログラム](
+https://github.com/houtbrion/arduino-grove/blob/master/Grove_RFID_Reader/Grove_RFID_Reader.ino
+"サンプルプログラム")は本プロジェクトの「
+Grove\_RFID\_Reader
+/
+Grove\_RFID\_Reader.ino
+」に保存．
+
+seeed studioのgithubのリポジトリには
+[ライブラリ](
+https://github.com/Seeed-Studio/RFID_Library
+"ライブラリ")化したソースが存在するが，動作は未確認．
