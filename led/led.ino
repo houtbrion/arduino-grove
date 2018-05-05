@@ -9,7 +9,7 @@
 #define INTERVAL 1000
 
 //const int ledPin =  6;      // the number of the LED pin
-const int ledPin =  3;      // the number of the LED pin
+const int ledPin =  2;      // the number of the LED pin
 
 // variables will change:
 
