@@ -762,6 +762,7 @@ Line\_Finder.ino
 技術情報のWikiにはD3端子が発信機のデータ端子と書いてあることと，
 通常，groveのモジュールはVCC,GNDとデータピンが1つの場合は，外側しか
 使っていないので同じノリで配線して動作させたところ，動作を確認できた．
+
 ####受信機
 * [製品情報](https://www.seeedstudio.com/Grove-Infrared-Receiver-p-994.html "製品情報")
 * [技術情報](http://wiki.seeedstudio.com/Grove-Infrared_Receiver/ "技術情報")
@@ -798,7 +799,8 @@ Line\_Finder.ino
 ソフト的な問題にしても情報がなさすぎて
 DEBUG困難．
 
-##音関係
+
+## 音関係
 ### Serial MP3 Player
 * [製品情報](https://www.seeedstudio.com/Grove-Serial-MP3-Player-p-1542.html "製品情報")
 * [サンプルプログラム](https://github.com/Seeed-Studio/Grove_Serial_MP3_Player "サンプルプログラム")
